@@ -1,0 +1,10 @@
+.background {
+    position: relative;
+    float: left;
+}
+
+.element1 {
+    position: absolute;
+    width: 100%;
+    top: 7%;
+}

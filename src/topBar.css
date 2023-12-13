@@ -1,0 +1,62 @@
+.head {
+    display: flex;
+    justify-content: center; 
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 50%;
+  }
+  
+  .menuChapter {
+    opacity: 0.50;
+    color: #1F1534;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left: 9%;
+  }
+  
+  .Home {
+    color: #1F1534;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .nameLogo {
+    color: #233348;
+    font-size: 24px;
+    font-family: Mulish;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  
+  .nameT {
+    color: white;
+    font-size: 26px;
+    font-family: Mulish;
+    font-weight: 700;
+    word-wrap: break-word;
+    background: #458FF6;
+    border-radius: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-right: 3%;
+  }
+  

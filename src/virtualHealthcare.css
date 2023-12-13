@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    float: left;
+}
+
+.headerText {
+    display: inline-block;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.virtualHealthcare {
+    color: black; 
+    font-size: 48px; 
+    font-family: Mulish; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+.ourService {
+    width: 75%; 
+    color: #7D7987; 
+    font-size: 21px; 
+    font-family: Mulish; 
+    font-weight: 300; 
+    line-height: 32px; 
+    word-wrap: break-word;
+    margin-top: 3%;
+}
+
+.button {
+    align-items: center;
+    width: 200px; 
+    height: 56px;
+    border: none;
+    background-color: #458FF6;
+    color: white;
+    font-size: 18px; 
+    font-family: Mulish; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    border-radius: 30px;
+    margin-top: 7%;
+}
+
+.image {
+    width: 50%;
+    margin-right: 10%;
+}
+
+.header .element1 {
+    margin-top: 6%;
+    float: left;
+    width: 80px;
+    height: 114px;
+}
