@@ -99,6 +99,7 @@
 .ourServicesHeader .bgElement {
     position: absolute;
     left: 0;
+    width: 55%;
 }
 
 .buttonOurSer {

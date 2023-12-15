@@ -16,6 +16,8 @@
     align-items: center;
     text-align: right;
     width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
   .menuChapter {
@@ -25,7 +27,6 @@
     font-family: Mulish;
     font-weight: 400;
     word-wrap: break-word;
-    margin-left: 9%;
   }
   
   .Home {
