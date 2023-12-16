@@ -1,0 +1,122 @@
+.check {
+    justify-content: center;
+    text-align: center;
+}
+
+.checkTitle {
+    margin-top: 220px;
+}
+
+.checkTitleText {
+    color: black;
+    font-size: 36px; 
+    font-family: Muli; 
+    font-weight: 700; 
+    line-height: 56px; 
+    word-wrap: break-word;
+    margin-bottom: 26px;
+}
+
+.checkUnderlining {
+    width: 56px; 
+    height: 2px; 
+    background: black; 
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkCard {
+    width: 350px; 
+    height: 512px; 
+    margin-top: 72px;
+    background: white; 
+    box-shadow: 10px 40px 50px rgba(228.77, 233.43, 245.51, 0.40); 
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+    z-index: 2;
+    position: relative;
+}
+
+.cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.checkImage {
+    width: 350px; 
+    height: 240px; 
+    background: white; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px
+}
+
+.checkCardTitle {
+    color: black; 
+    font-size: 21px; 
+    font-family: Muli; 
+    font-weight: 700; 
+    line-height: 32px; 
+    word-wrap: break-word;
+    margin-left: 10%;
+    margin-top: 21px;
+    text-align: left;
+}
+
+.checkCardText {
+    width: 266px; 
+    color: #7D7987; 
+    font-size: 16px; 
+    font-family: Muli; 
+    font-weight: 300; 
+    line-height: 28px; 
+    word-wrap: break-word;
+    margin-left: 10%;
+    margin-top: 12px;
+    text-align: left;
+}
+
+.checkCardMore {
+    width: 266px; 
+    color: #4089ED; 
+    font-size: 17px; 
+    font-family: Muli; 
+    font-weight: 600; 
+    line-height: 28px; 
+    word-wrap: break-word;
+    margin-left: 10%;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.check .checkElement {
+    position: absolute;
+    left: 0;
+    margin-left: 10%;
+    margin-top: -555px;
+}
+
+.check .checkBgElement {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    margin-top: -560px;
+}
+
+.checkButton {
+    width: 200px; 
+    height: 56px; 
+    border-radius: 55px; 
+    border: 1.40px #458FF6 solid;
+    background-color: white;
+    margin-top: 69px;
+    color: #458FF6; 
+    font-size: 18px; 
+    font-family: Muli; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    align-items: center;
+}

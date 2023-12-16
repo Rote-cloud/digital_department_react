@@ -5,6 +5,7 @@
     margin-left: 10%;
     margin-right: 10%;
   }
+
   .logo {
     display: flex;
     align-items: center;
@@ -45,7 +46,6 @@
     word-wrap: break-word;
   }
   
-  
   .nameT {
     color: white;
     font-size: 26px;
@@ -58,6 +58,6 @@
     padding-left: 10px;
     padding-bottom: 5px;
     padding-right: 10px;
-    margin-right: 3%;
+    margin-right: 12px;
   }
   

@@ -5,6 +5,8 @@ import VirtualHealthcare from './virtualHealthcare.tsx'
 import OurServices from './ourServices.tsx'
 import OurMobile from './ourMobile.tsx'
 import Review from './review.tsx'
+import Check from './check.tsx'
+import Footer from './footer.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -13,5 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <OurServices />
     <OurMobile />
     <Review />
+    <Check />
+    <Footer />
   </React.StrictMode>,
 )

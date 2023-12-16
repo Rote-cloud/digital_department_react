@@ -10,14 +10,16 @@
     justify-content: center;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 17%;
+    margin-top: 266px;
+    position: relative;
+    z-index: 1;
 }
 
 .reviewFlex {
     display: flex;
     text-align: center;
     align-items: center;
-    padding-bottom: 8%;
+    padding-bottom: 89px;
 }
 
 .reviewText {
@@ -33,7 +35,7 @@
 
 .reviewQuestion {
     padding-top: 64px;
-    padding-bottom: 2.5%;
+    padding-bottom: 25px;
     color: white; 
     font-size: 36px; 
     font-family: Muli; 
@@ -73,7 +75,7 @@
     border-radius: 6px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 7%;
+    margin-bottom: 77px;
 }
 
 .avatar {
@@ -86,8 +88,8 @@
 
 .review .reviewImage {
     position: absolute;
-    margin-top: 1%;
-    margin-left: 29%;
+    margin-top: 10px;
+    margin-left: 445px;
 }
 
 .slider {
@@ -104,8 +106,8 @@
 
 .reviewBlock .reviewImage2 {
     position: absolute;
-    margin-left: 12%;
-    margin-top: -14%;
+    margin-left: 175px;
+    margin-top: -210px;
 }
 
   

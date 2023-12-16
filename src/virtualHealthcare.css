@@ -27,7 +27,7 @@
     font-weight: 300; 
     line-height: 32px; 
     word-wrap: break-word;
-    margin-top: 3%;
+    margin-top: 25px;
 }
 
 .button {
@@ -42,7 +42,7 @@
     font-weight: 700; 
     word-wrap: break-word;
     border-radius: 30px;
-    margin-top: 7%;
+    margin-top: 45px;
 }
 
 .image {
@@ -52,6 +52,6 @@
 
 .header .element1 {
     position: absolute;
-    margin-top: -30%;
+    margin-top: -470px;
     float: left;
 }
