@@ -5,7 +5,7 @@
 }
 
 .footerBg {
-    background: linear-gradient(183deg, #67C3F3 0%, #5A98F2 100%);
+    background: linear-gradient(183deg, var(--bgColor) 0%, var(--Tcolor) 100%);
     display: flex;
     padding-top: 118px;
     padding-bottom: 100px;
@@ -36,7 +36,7 @@
 }
 
 .healthCareLogo {
-    color: #5B9BF3; 
+    color: var(--Tcolor); 
     font-size: 26px; 
     font-family: Muli; 
     font-weight: 700; 

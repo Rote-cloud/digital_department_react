@@ -1,11 +1,12 @@
-import './check.css';
+import Button from './Button';
+import './Check.modules.css';
+import Header from './Header';
 
 export default function Check() {
   return (
     <div className='check'>
-        <div className='checkTitle'>
-        <div className='checkTitleText'>Check out our latest article</div>
-        <div className='checkUnderlining'></div>
+        <div style={{width: "70%", display: "inline-block", marginTop: "220px"}}>
+          <Header title='Check out our latest article'/>
         </div>
 
         <div className='cards'>
@@ -29,7 +30,9 @@ export default function Check() {
         </div>
         </div>
 
-        <button className='checkButton'>View all</button>
+        <div style={{ marginTop: "72px"}}>
+          <Button buttonText='View all' />
+        </div>
 
         <img className='checkElement' src="./src/assets/element1.svg" />
         <img className='checkBgElement' src="./src/assets/bgElement2.svg"/>

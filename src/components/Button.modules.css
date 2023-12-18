@@ -1,0 +1,22 @@
+.button {
+    width: 200px; height: 56px; 
+    border-radius: 55px; 
+    border: 1.40px var(--buttonBlue) solid;
+    color: var(--buttonBlue); 
+    font-size: 18px; 
+    font-family: Mulish; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    background-color: white;
+}
+
+.buttonText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button:hover {
+    background-color: var(--buttonhover);
+  }

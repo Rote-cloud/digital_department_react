@@ -1,0 +1,36 @@
+.ourMobile {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.boxMobile {
+    display: inline-block;
+    margin-left: 11%;
+}
+
+.mobileUnderlining {
+    width: 56px; 
+    height: 2px;
+    background: black; 
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+ }
+
+.mobileImage {
+    width: 50%;
+}
+
+.arrowDown {
+    margin-left: 10px;
+    height: 14px;
+}
+
+.learnMore .element2 {
+    position: absolute;
+    right: 0;
+    margin-top: -620px;
+}

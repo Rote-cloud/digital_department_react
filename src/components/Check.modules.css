@@ -3,35 +3,12 @@
     text-align: center;
 }
 
-.checkTitle {
-    margin-top: 220px;
-}
-
-.checkTitleText {
-    color: black;
-    font-size: 36px; 
-    font-family: Muli; 
-    font-weight: 700; 
-    line-height: 56px; 
-    word-wrap: break-word;
-    margin-bottom: 26px;
-}
-
-.checkUnderlining {
-    width: 56px; 
-    height: 2px; 
-    background: black; 
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .checkCard {
     width: 350px; 
     height: 512px; 
     margin-top: 72px;
     background: white; 
-    box-shadow: 10px 40px 50px rgba(228.77, 233.43, 245.51, 0.40); 
+    box-shadow: var(--shadow); 
     border-radius: 20px;
     display: inline-block;
     margin-left: 1.25%;
@@ -68,7 +45,7 @@
 
 .checkCardText {
     width: 266px; 
-    color: #7D7987; 
+    color: var(--subtextColor); 
     font-size: 16px; 
     font-family: Muli; 
     font-weight: 300; 
@@ -81,7 +58,7 @@
 
 .checkCardMore {
     width: 266px; 
-    color: #4089ED; 
+    color: var(--buttonBlue); 
     font-size: 17px; 
     font-family: Muli; 
     font-weight: 600; 
@@ -90,13 +67,16 @@
     margin-left: 10%;
     margin-top: 25px;
     text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .check .checkElement {
     position: absolute;
     left: 0;
     margin-left: 10%;
-    margin-top: -555px;
+    margin-top: -36.5%;
 }
 
 .check .checkBgElement {
@@ -104,19 +84,4 @@
     width: 30%;
     right: 0;
     margin-top: -560px;
-}
-
-.checkButton {
-    width: 200px; 
-    height: 56px; 
-    border-radius: 55px; 
-    border: 1.40px #458FF6 solid;
-    background-color: white;
-    margin-top: 69px;
-    color: #458FF6; 
-    font-size: 18px; 
-    font-family: Muli; 
-    font-weight: 700; 
-    word-wrap: break-word;
-    align-items: center;
 }

@@ -1,4 +1,7 @@
-import './ourServices.css';
+import Button from './Button';
+import Header from './Header';
+import MyText from './MyText';
+import './OurServices.modules.css';
 
 export default function OurServices() {
   return (
@@ -6,13 +9,18 @@ export default function OurServices() {
         <img className='element' src="./src/assets/element1.svg"/>
         <img className='bgElement' src="./src/assets/bgElement.svg"/>
 
-        <div className='ourServices'>Our services</div>
-        <div className='ourServicesUnderlining'></div>
-        <div className='ourServicesText'>
-        We provide to you 
-        the best choiches for you. Adjust it to your health needs and make sure 
-        your undergo treatment with our highly qualified doctors you can consult with us 
-        which type of service is suitable for your health
+        
+        <div>
+          <Header title='Our services'/>
+        </div>
+        <div style={{ width: "60%", marginTop: "33px", 
+        display: 'inline-block', marginBottom: "40px"}}>
+                    <MyText 
+                    text="We provide to you the best 
+                    choiches for you. Adjust it to your 
+                    health needs and make sure your undergo treatment 
+                    with our highly qualified doctors you can consult 
+                    with us which type of service is suitable for your health" />
         </div>
 
         <div className='services'>
@@ -72,7 +80,9 @@ export default function OurServices() {
           </div>
         </div>
 
-        <button className='buttonOurSer'>Learn more</button>
+        <div style={{ marginTop: "72px"}}>
+          <Button buttonText='Learn more' />
+        </div>
     </div>
     
   );

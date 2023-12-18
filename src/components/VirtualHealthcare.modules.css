@@ -19,23 +19,12 @@
     word-wrap: break-word;
 }
 
-.ourService {
-    width: 75%; 
-    color: #7D7987; 
-    font-size: 21px; 
-    font-family: Mulish; 
-    font-weight: 300; 
-    line-height: 32px; 
-    word-wrap: break-word;
-    margin-top: 25px;
-}
-
-.button {
+.buttonVirtual {
     align-items: center;
     width: 200px; 
     height: 56px;
     border: none;
-    background-color: #458FF6;
+    background-color: var(--buttonBlue);
     color: white;
     font-size: 18px; 
     font-family: Mulish; 
@@ -44,6 +33,10 @@
     border-radius: 30px;
     margin-top: 45px;
 }
+
+.buttonVirtual:hover {
+    background-color: var(--buttonhover2);
+  }
 
 .image {
     width: 50%;

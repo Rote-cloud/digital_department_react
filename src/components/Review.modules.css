@@ -1,15 +1,17 @@
 .reviewBlock {
-    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .review {
-    background: linear-gradient(215deg, #67C3F3 0%, #5A98F2 100%); 
+    background: linear-gradient(215deg, var(--bgColor) 0%, var(--Tcolor) 100%); 
     border-radius: 24px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-top: 266px;
     position: relative;
     z-index: 1;
@@ -23,7 +25,7 @@
 }
 
 .reviewText {
-    color: rgba(255, 255, 255, 0.90); 
+    color: var(--reviewColor); 
     font-size: 19px; 
     font-family: Muli;
     font-weight: 400; 
@@ -53,7 +55,7 @@
 }
 
 .reviewJob {
-    color: rgba(255, 255, 255, 0.85); 
+    color: var(--reviewColor); 
     font-size: 18px; 
     font-family: Muli; 
     font-weight: 400; 
@@ -89,7 +91,7 @@
 .review .reviewImage {
     position: absolute;
     margin-top: 10px;
-    margin-left: 445px;
+    margin-left: 42%;
 }
 
 .slider {
@@ -106,8 +108,8 @@
 
 .reviewBlock .reviewImage2 {
     position: absolute;
-    margin-left: 175px;
-    margin-top: -210px;
+    margin-left: -38%;
+    margin-top: -14%;
 }
 
   

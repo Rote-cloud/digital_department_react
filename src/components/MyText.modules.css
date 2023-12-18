@@ -1,0 +1,8 @@
+.text {
+    color: var(--subtextColor); 
+    font-size: 18px; 
+    font-family: Mulish; 
+    font-weight: 300; 
+    line-height: 30px; 
+    word-wrap: break-word;
+}
