@@ -14,7 +14,7 @@
 .virtualHealthcare {
     color: black; 
     font-size: 48px; 
-    font-family: Mulish; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 700; 
     word-wrap: break-word;
 }
@@ -27,7 +27,7 @@
     background-color: var(--buttonBlue);
     color: white;
     font-size: 18px; 
-    font-family: Mulish; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 700; 
     word-wrap: break-word;
     border-radius: 30px;

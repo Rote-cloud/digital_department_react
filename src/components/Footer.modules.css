@@ -30,30 +30,29 @@
 .healthCareTitle {
     color: white; 
     font-size: 24px; 
-    font-family: Muli; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 700; 
     word-wrap: break-word;
 }
 
 .healthCareLogo {
-    color: var(--Tcolor); 
-    font-size: 26px; 
-    font-family: Muli; 
-    font-weight: 700; 
+    color: var(--Tcolor);
+    font-size: 26px;
+    font-weight: 700;
     word-wrap: break-word;
     background: white;
     border-radius: 100%;
     padding-top: 5px;
-    padding-left: 10px;
+    padding-left: 12px;
     padding-bottom: 5px;
-    padding-right: 10px;
+    padding-right: 12px;
     margin-right: 12px;
 }
 
 .healthCareInfo {
     color: white;
      font-size: 18px; 
-     font-family: Muli; 
+     font-family: "Muli-Regular", Helvetica; 
      font-weight: 300; 
      line-height: 28px; 
      word-wrap: break-word;
@@ -64,7 +63,7 @@
 .healthCareInfo2 {
     color: white;
      font-size: 18px; 
-     font-family: Muli; 
+     font-family: "Muli-Regular", Helvetica; 
      font-weight: 300; 
      word-wrap: break-word;
      padding-top: 31px;
@@ -82,7 +81,7 @@
 .footerInfoTitle {
     color: white; 
     font-size: 20px; 
-    font-family: Muli; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 700; 
     line-height: 60px; 
     word-wrap: break-word;
@@ -91,7 +90,7 @@
 .footerInfoText {
     color: white; 
     font-size: 18px; 
-    font-family: Muli; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 300; 
     line-height: 38px; 
     word-wrap: break-word;

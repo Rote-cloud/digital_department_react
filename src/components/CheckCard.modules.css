@@ -29,7 +29,7 @@
 .checkCardTitle {
     color: black; 
     font-size: 21px; 
-    font-family: Muli; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 700; 
     line-height: 32px; 
     word-wrap: break-word;
@@ -42,7 +42,7 @@
     width: 266px; 
     color: var(--subtextColor); 
     font-size: 16px; 
-    font-family: Muli; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 300; 
     line-height: 28px; 
     word-wrap: break-word;
@@ -55,7 +55,7 @@
     width: 266px; 
     color: var(--buttonBlue); 
     font-size: 17px; 
-    font-family: Muli; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 600; 
     line-height: 28px; 
     word-wrap: break-word;

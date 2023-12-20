@@ -4,7 +4,7 @@
     border: 1.40px var(--buttonBlue) solid;
     color: var(--buttonBlue); 
     font-size: 18px; 
-    font-family: Mulish; 
+    font-family: "Muli-Regular", Helvetica; 
     font-weight: 700; 
     word-wrap: break-word;
     background-color: white;
