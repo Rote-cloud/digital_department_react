@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+# digital_department_react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React App Screenshot](public/photo1.png)
 
-Currently, two official plugins are available:
+![React App Screenshot](public/photo2.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React App Screenshot](public/photo3.png)
 
-## Expanding the ESLint configuration
+![React App Screenshot](public/photo4.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![React App Screenshot](public/photo5.png)
 
-- Configure the top-level `parserOptions` property like this:
+![React App Screenshot](public/photo6.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![React App Screenshot](public/photo7.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![React App Screenshot](public/photo8.png)
+
+## Описание проекта
+Это проект экрана приложения, написанный на React c использованием TypeScript. На экране присутствуют следующие элементы:
+
+- **Логотип**: Логотип и название сайте.
+- **Навигация**: Панель навигации по сайту.
+- **Сервисы**: Сервисы предоставляемые сайтом.
+- **Отзывы**: Отзывы об услугах сайта.
+- **Статьи**: Различные статьи сайта.
+- **Нижний колонтитул**: Нижний колонтитул с информацией.
+- **Заголовки**: Заголовки всех структур.
+
+## Структура проекта
+- **`Check`**: Все карточки со статьями.
+- **`Articles`**:  Несколько карточек со статьями.
+- **`Footer`**: Нижний колонтитул.
+- **`Header`**: Заголовок для разделов.
+- **`OurMobile`**: Текста с дополнительной информацией.
+- **`OurServices`**: Все карточки с сервисами.
+- **`Review`**: Отзывы о приложении.
+- **`ReviewHuman`**: Отзыв человека.
+- **`TopBar`**: Панель навигации.
+- **`VirtualHealthcare`**: Панель с консультацией.
+
+## Технологии
+- React, TypeScript, CSS, HTML
+
+## Как использовать
+1. Клонируйте репозиторий.
+2. Откройте проект в вашей IDE. Желательно в Visual Studio Code.
+3. Необходимо зайти в директорию проекта при помощи команды cd в командной строке
+4. Убедитесь, что у вас установлены все необходимые зависимости командой *npm install*.
+5. Запустите локальный хост при помощи команды *npm run dev*
+
+
+## Автор
+# Автор: Шереметьев Кирилл Алексеевич
