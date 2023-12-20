@@ -7,7 +7,8 @@ import Check from './Check.tsx'
 import Footer from './Footer.tsx'
 
 export default function App() {
-    return (
+
+  return (
       <div>
         <TopBar />
         <VirtualHealthcare />

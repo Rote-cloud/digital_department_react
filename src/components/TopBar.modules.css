@@ -29,6 +29,10 @@
     font-weight: 400;
     word-wrap: break-word;
   }
+
+  .menuChapter:hover {
+    text-decoration: underline;
+  }
   
   .Home {
     color: #1F1534;
@@ -36,6 +40,10 @@
     font-family: Mulish;
     font-weight: 700;
     word-wrap: break-word;
+  }
+
+  .Home:hover {
+    text-decoration: underline;
   }
   
   .nameLogo {
